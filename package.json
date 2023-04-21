@@ -1,0 +1,21 @@
+{
+  "name": "crud-mean-stack-backend",
+  "version": "1.0.0",
+  "description": "this is MEAN Stack CRUD app with Bootstrap, Node.js, Express.js, MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brayan-cordova/crud-mean-stack-backend.git"
+  },
+  "keywords": [],
+  "author": "BRAYAN CORDOVA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brayan-cordova/crud-mean-stack-backend/issues"
+  },
+  "homepage": "https://github.com/brayan-cordova/crud-mean-stack-backend#readme"
+}
