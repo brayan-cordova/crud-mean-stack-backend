@@ -12,9 +12,9 @@ const port = process.env.PORT || 3000;
 mongoose.connect("mongodb://127.0.0.1:27017/mean_crud", {
     useNewUrlParser: true,
     useUnifiedTopology: true
-}, function checkDB(err) {
-    if (err) {
-        console.log('Not Connected to the database, err:  ' + err);
+}, function checkDB(error) {
+    if (error) {
+        console.log('Not Connected to the database, err:  ' + error);
 
     } else {
 
@@ -27,10 +27,10 @@ server.use(express.json());
 server.use(routes);
 server.use(cors());
 
-server.listen(port, function check(err) {
+server.listen(port, function check(error) {
 
-    if (err) {
-        console.log('Error on server: ' + err);
+    if (error) {
+        console.log('Error on server: ' + error);
 
     } else {
 
