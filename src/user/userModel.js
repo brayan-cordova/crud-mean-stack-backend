@@ -1,10 +1,10 @@
 // schema for db
-
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 //user Schema
 var userSchema = new Schema({
+
     first_name: {
         type: String,
         required: true
