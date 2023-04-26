@@ -23,9 +23,10 @@ mongoose.connect("mongodb://127.0.0.1:27017/mean_crud", {
 });
 
 // server configuration
+server.use(cors());
 server.use(express.json());
 server.use(routes);
-server.use(cors());
+
 
 server.listen(port, function check(error) {
 
